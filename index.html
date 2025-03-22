@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Portfolio</h1>
+      <nav class="timeline-nav">
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="active">
+              <span class="nav-dot"></span>
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              <span class="nav-dot"></span>
+              <span class="nav-text">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <span class="nav-dot"></span>
+              <span class="nav-text">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <span class="nav-dot"></span>
+              <span class="nav-text">Contact</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="social-links">
+          <li>
+            <a href="https://linkedin.com/in/your-profile" target="_blank" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/your-username" target="_blank" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/your-handle" target="_blank" title="X (Twitter)">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2 class="slideshow-text" style="justify-content: flex-start;">
+                <span class="text-slide">S</span>
+                <span class="text-slide">A</span>
+                <span class="text-slide">S</span>
+                <span class="text-slide">R</span>
+                <span class="text-slide">E</span>
+                <span class="text-slide">E</span>
+                <span class="text-slide">K</span>
+                <span class="text-slide">&nbsp;</span>
+                <span class="text-slide">R</span>
+            </h2>
+            <p>I'm a <span class="count-up" data-value="100">0</span>% dedicated 
+               <span class="typing-text"></span></p>
+            <div class="hero-buttons">
+              <a href="projects.html" class="btn">View My Work</a>
+              <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+              <a href="assets/istockphoto-1318016939-1024x1024.jpg" 
+                 download="Sasreek_CV.jpg" 
+                 class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CV
+              </a>
+            </div>
+          </div>
+          <div class="profile-container">
+            <div class="profile-wrapper">
+                <img src="assets/WhatsApp Image 2025-02-12 at 19.15.41_e320295c.jpg" alt="Your Profile" class="profile-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+      initSquaresBackground();
+      // ... rest of your initialization code
+  });
+  </script>
+</body>
+</html>
